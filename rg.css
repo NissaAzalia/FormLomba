@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.luar {
+    background-color: #003742;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dalam {
+    background-color: #116A7B;
+    margin: 50px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.kiri {
+    background-color: #116A7B;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    margin-top: 150px;
+}
+
+.kanan {
+    background-color: #C2DEDC;
+    border-radius: 50px 0 0 50px;
+    width: 2000px;
+    height: 400px;
+    padding: 30px 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    margin-left: 60px;
+    margin-top: 1px;
+}
+
+input {
+    background-color: white;
+    margin-top: 10px;
+    height: 20px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+select {
+    background-color: white;
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.masukkan {
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.nama-kelas,
+.no-lomba {
+    display: flex;
+}
+
+.btn {
+    display: flex;
+    margin-left: 200px;
+}
+
+.btn-dftr {
+    background-color: #116A7B;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-right: 100px;
+}
+
+.btn-cnc {
+    background-color: #408E9D;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.daftar-list {
+    background-color: #BFCCB5;
+    padding: 50px ;
+    width: 1055px;
+    /* margin-bottom: 5px; */
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 15px;
+    padding-top: 30px;
+    width: 350px;
+    height: 150px;
+    padding-left: 50px;
+}
+
+.isian {
+    width: 400px;
+    height: 200px;
+    margin-bottom: 90px;
+}
+
+.butn {
+    background-color: #116A7B;
+    display: flex;
+    border-radius: 15px;
+    width: 416px;
+    margin-top: -45px;
+}
+
+.btn-edt {
+    background-color: #116A7B;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.btn-hps {
+    background-color: #408E9D;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    width: 250px;
+    cursor: pointer;
+}

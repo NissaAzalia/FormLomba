@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="rg.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="luar">
+        <div class="dalam">
+            <div class="kiri">
+                <img src="KANDEMAN.png" alt="" width="200px">
+            </div>
+            <div class="kanan">
+                <h1 id="judul">PENDAFTARAN LOMBA</h1>
+                <form>
+
+                    <div class="nama-kelas">
+                        <div class="masukkan">
+                            <h3>Nama</h3>
+                            <input placeholder="Masukkan nama" type="text" id="nama">
+                        </div>
+                        <div class="masukkan">
+                            <h3>Kelas</h3>
+                            <select id="kelas">
+                                <option disabled selected>Pilih Kelas</option>
+                                <option>XI RPL 1</option>
+                                <option>XI RPL 2</option>
+                                <option>XI TEI 1</option>
+                                <option>XI TEI 2</option>
+                                <option>XI TAV 1 </option>
+                                <option>XI TAV 2</option>
+                                <option>XI TKRO 1 </option>
+                                <option>XI TKRO 2</option>
+                                <option>XI TKRO 3</option>
+                                <option>XI TBSM 1</option>
+                                <option>XI TBSM 2</option>
+                                <option>XI TP 1</option>
+                                <option>XI TP 2</option>
+                                <option>XI TITL</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="no-lomba">
+                        <div class="masukkan">
+                            <h3>No Hp</h3>
+                            <input placeholder="Masukkan no Hp" type="number" id="nohp">
+                        </div>
+                        <div class="masukkan">
+                            <h3> Kategori Lomba </h3>
+                            <select id="lomba">
+                                <option id="lomba" disabled selected>Pilih kategori lomba</option>
+                                <option id="lomba">lomba cerdas cermat</option>
+                                <option id="lomba">lomba estafet balon</option>
+                                <option id="lomba">lomba balap karung</option>
+                                <option id="lomba">lomba fashion show</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <button class="btn-dftr" id="btn-dftr">Daftar</button>
+                        <button class="btn-cnc" id="btn-cancelRg">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="daftar-list" id="list"></div>
+    </div>
+</body>
+<script src="register.js"></script>
+</html>
